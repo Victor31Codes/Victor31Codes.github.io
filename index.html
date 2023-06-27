@@ -32,36 +32,42 @@
     </style> -->
   </head>
   <body>
-    <main class="card_container">
-      <div class="img_container">
-        <img src="images/image-product-desktop.jpg" alt="desktop_image" />
-      </div>
-      <section class="text_container">
-        <h4 id="title">Perfume</h4>
-        <h2>Gabrielle Essence Eau De Parfum</h2>
-        <p>
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
-        <div class="prices">
-          <h2 id="price">$149.99</h2>
-          <h4 id="false_price">$169.99</h4>
-        </div>
-        <a
-          href="https://www.apple.com/shop/buy-iphone/iphone-12"
-          target="_blank"
-          id="btn"
-        >
-          <img id="icon" src="images/icon-cart.svg" alt="" />Add to Cart
-        </a>
+    <main class="container">
+      <section class="card_container">
+        <picture class="img_container">
+          <source
+            srcset="images/image-product-mobile.jpg"
+            media="(max-width:414px)"
+          />
+          <img
+            src="images/image-product-desktop.jpg"
+            alt="Perfum_Desktop_img"
+          />
+        </picture>
+        <article class="text_container">
+          <h4 id="title">Perfume</h4>
+          <h2>Gabrielle Essence Eau De Parfum</h2>
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="prices">
+            <h2 id="price">$149.99</h2>
+            <h4 id="false_price">$169.99</h4>
+          </div>
+          <a
+            href="https://www.apple.com/shop/buy-iphone/iphone-12"
+            target="_blank"
+            id="btn"
+          >
+            <img id="icon" src="images/icon-cart.svg" alt="" />Add to Cart
+          </a>
+        </article>
       </section>
     </main>
 
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+    <footer class="attribution">
+      <p>Challenge by Frontend Mentor. Coded by &copy;Victor31Codes.</p>
+    </footer>
   </body>
 </html>
